@@ -7,7 +7,6 @@ words = argv[1:]
 sleep(5)
 
 for word in words:
-    # press_and_release('t')
     write(word)
     press_and_release('enter')
     sleep(0.1)
